@@ -16,6 +16,10 @@ Your users should be able to:
 | tgs-Card    | testimonial card | div     | gc-MediaObject .slug blockquote |
 | tgs-Card_id | identity         | article | img h1 p                        |
 
+### Utility Classes
+
+- `dark` and `featured` to colour cards accordingly
+
 ## Colors
 
 ### Primary
@@ -47,3 +51,9 @@ Note for text colors:
 - Family:
   [Barlow Semi Condensed](https://fonts.google.com/specimen/Barlow+Semi+Condensed)
 - Weights: 500, 600
+
+References:
+
+For `tgs-Card_id` styling:
+
+- [The Art of Building Real Life Components](https://www.ishadeed.com/article/building-real-life-components/)

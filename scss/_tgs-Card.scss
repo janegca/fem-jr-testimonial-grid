@@ -1,0 +1,81 @@
+/* Styles for tgs-Card */
+.tgs-Card {
+  padding: var(--rs-32);
+
+  border-radius: var(--card-corner);
+  box-shadow: var(--card-shadow);
+
+  font-size: var(--rs-13);
+  color: var(--clr-fg);
+}
+
+.tgs-Card + .tgs-Card {
+  margin-top: var(--rs-24);
+}
+
+.tgs-Card.dark {
+  background-color: var(--clr-dark-bg);
+  color: var(--clr-dark-fg);
+}
+
+.tgs-Card.light {
+  background-color: var(--clr-dark-fg);
+}
+
+.tgs-Card.featured {
+  background-color: var(--clr-featured);
+  color: var(--clr-dark-fg);
+}
+
+.tgs-Card > .slug {
+  font-size: var(--rs-20);
+  font-weight: var(--fw-bold);
+  line-height: var(--lh-slug);
+}
+
+.tgs-Card > .quote {
+  line-height: var(--lh-quote);
+  opacity: 0.7;
+}
+
+/* Identity */
+
+.tgs-Card_id {
+  display: flex;
+  align-items: center;
+}
+
+.tgs-Card_id > .avatar {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  margin-right: var(--rs-17);
+}
+
+.tgs-Card_id > .avatar > img {
+  border-radius: 50%;
+}
+
+.tgs-Card_id > .avatar > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 2px solid red;
+  opacity: 0.3;
+}
+
+.tgs-Card_id > .identity > h1 {
+  margin: 0;
+  font-size: var(--rs-13);
+  font-weight: var(--fw-bold);
+}
+
+.tgs-Card_id > .identity > p {
+  margin: 0;
+  margin-top: var(--rs-04);
+  font-size: var(--rs-11);
+  opacity: 0.5;
+}
