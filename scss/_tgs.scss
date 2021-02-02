@@ -30,6 +30,7 @@
   --rs-18: 1.125rem;
   --rs-20: 1.25rem;
   --rs-24: 1.5rem;
+  --rs-30: 1.875rem;
   --rs-32: 2rem;
 
   /* Misc */
@@ -45,4 +46,13 @@
   line-height: var(--line-height);
 
   background-color: var(--clr-tgs-bg);
+}
+
+@media (min-width: 44em) {
+  .tgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: var(--rs-24);
+    column-gap: var(--rs-30);
+  }
 }
