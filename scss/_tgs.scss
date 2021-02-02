@@ -51,13 +51,13 @@
 @media (min-width: 30rem) {
   .tgs {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
     row-gap: var(--rs-24);
     column-gap: var(--rs-30);
   }
 }
 
-@media (min-width: 90rem) {
+@media (min-width: 80rem) {
   .tgs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
