@@ -15,7 +15,12 @@ img {
 }
 
 body {
+  margin: 0;
   background-color: rgb(242, 242, 242);
+}
+
+.wrapper {
+  padding: 0 1rem;
 }
 
 .attribution {
@@ -25,4 +30,13 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 30rem) {
+  .wrapper {
+    max-width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+  }
 }
