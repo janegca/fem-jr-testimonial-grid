@@ -28,6 +28,10 @@
 }
 
 .tgs-Card.featured {
+  background-image: url(images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: top right 8%;
+
   background-color: var(--clr-featured);
   color: var(--clr-dark-fg);
 }
